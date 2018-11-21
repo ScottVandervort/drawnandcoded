@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottsJewels.Extensions", "ScottsJewels.Extensions\ScottsJewels.Extensions.csproj", "{238D07E9-E3C7-41A2-B135-634ED70DBFED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottsJewels.Services", "ScottsJewels.Services\ScottsJewels.Services.csproj", "{156A1097-A949-49CB-A9E4-ABC6DA3C0819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottsJewels.Samples.Notepad.DataModels", "ScottsJewels.Samples.Notepad.DataModels\ScottsJewels.Samples.Notepad.DataModels.csproj", "{746365D4-78E2-4A66-A92A-BFB51BF97A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottsJewels.Samples.Notepad.DataAccess", "ScottsJewels.Samples.Notepad.DataAccess\ScottsJewels.Samples.Notepad.DataAccess.csproj", "{2D1D8816-E86A-47FA-8415-B8B65845A31B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottsJewels.Samples.Notepad", "ScottsJewels.Samples.Notepad\ScottsJewels.Samples.Notepad.csproj", "{71628F24-C468-4ECC-A523-9F2B290B940F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{238D07E9-E3C7-41A2-B135-634ED70DBFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238D07E9-E3C7-41A2-B135-634ED70DBFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238D07E9-E3C7-41A2-B135-634ED70DBFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238D07E9-E3C7-41A2-B135-634ED70DBFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156A1097-A949-49CB-A9E4-ABC6DA3C0819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156A1097-A949-49CB-A9E4-ABC6DA3C0819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156A1097-A949-49CB-A9E4-ABC6DA3C0819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156A1097-A949-49CB-A9E4-ABC6DA3C0819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746365D4-78E2-4A66-A92A-BFB51BF97A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746365D4-78E2-4A66-A92A-BFB51BF97A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746365D4-78E2-4A66-A92A-BFB51BF97A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746365D4-78E2-4A66-A92A-BFB51BF97A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1D8816-E86A-47FA-8415-B8B65845A31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1D8816-E86A-47FA-8415-B8B65845A31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1D8816-E86A-47FA-8415-B8B65845A31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1D8816-E86A-47FA-8415-B8B65845A31B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71628F24-C468-4ECC-A523-9F2B290B940F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71628F24-C468-4ECC-A523-9F2B290B940F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71628F24-C468-4ECC-A523-9F2B290B940F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71628F24-C468-4ECC-A523-9F2B290B940F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

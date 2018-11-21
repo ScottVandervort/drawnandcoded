@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ScottsJewels.Samples.Notepad.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head runat="server">
+		<title>My Notepad</title>		
+		<script type="text/javascript" src="<%= ResolveUrl("~/Scripts/JQuery/jquery.min.js") %>"></script>		
+		<script type="text/javascript" src="<%= ResolveUrl("~/Scripts/JQuery/Plugins/jquery.datalink.js") %>"></script>		
+		<script type="text/javascript" src="<%= ResolveUrl("~/Scripts/notepad.js") %>"></script>
+	    <link href="<%= ResolveUrl("~/Styles/Site.css") %>" rel="stylesheet" type="text/css"></link>
+		<asp:ContentPlaceHolder ID="headContent" runat="server"/>    
+	</head>
+	<body runat="server">   
+		<div class="mainMenu">
+			<ul>
+				<li><a href="<%= ResolveUrl("~/Notepad/MvcNotepad") %>">My Notepad (MVC)</a></li>
+				<li><a href="<%= ResolveUrl("~/Notepad/WebFormsNotepad") %>">My Notepad (Web Forms)</a></li>
+			</ul>
+		</div>
+
+		<div style="float:left; width:600px;">
+			<asp:ContentPlaceHolder ID="bodyContent" runat="server"/>            
+		</div>	     
+	</body>
+</html>

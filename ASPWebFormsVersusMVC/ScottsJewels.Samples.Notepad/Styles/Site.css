@@ -1,0 +1,57 @@
+﻿body 
+{
+	width: 320px;
+}
+
+	body #message
+	{
+		display:none; 
+		position:fixed; 
+		width:320px; 
+		left:0px; 
+		top: 0px; 
+		background-color: Yellow; 
+		color: Black;		
+	}
+			
+	body div.note
+	{
+		width:315px;
+		background-color: Yellow;
+		color:Black;
+		border: 1px solid Black;
+		margin-top: 4px;
+		font-style:italic;
+		font-size:14px;		
+	}
+	
+		body div.note span
+		{
+			border-bottom: 1px solid Black;
+		}
+			
+	body div.mainMenu
+	{		
+		height: 30px;		
+	}
+	
+		body div.mainMenu ul
+		{
+			list-style-type:none; 			
+		}
+	
+		body div.mainMenu ul li
+		{
+			margin : 0px -40px;
+			float: left; 
+			width: 180px; 
+			padding-right: 40px;
+		}
+		
+	body form 
+	{
+		width:315px;		
+	}
+		
+	
+	
