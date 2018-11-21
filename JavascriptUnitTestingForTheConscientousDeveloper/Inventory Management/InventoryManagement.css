@@ -1,0 +1,72 @@
+div.manage-inventory
+{
+
+}
+	div.manage-inventory,
+	div.manage-inventory input,
+	div.manage-inventory button,
+	div.manage-inventory select
+	{
+		font-family: verdana,arial,sans-serif;
+		font-size:1.1em;
+		color:#333333;	
+	}
+	
+	div.manage-inventory .hidden				
+	{
+		display : none;
+	}
+													
+	div.manage-inventory select
+	{
+		border: 1px solid #666666;									
+		min-width: 160px;
+		padding: 2px;				
+		margin-bottom: 2px;
+	}
+					
+	div.manage-inventory table
+	{
+		border-collapse: collapse;	
+		width:500px;
+		margin-bottom: 2px;
+	}
+
+		div.manage-inventory table,
+		div.manage-inventory table th,
+		div.manage-inventory table td
+		{
+			border: 1px solid #666666;																
+		}
+		
+		div.manage-inventory table th,
+		div.manage-inventory table td
+		{
+			padding: 8px;		
+		}					
+
+		div.manage-inventory table th 
+		{																
+			background-color: #dedede;
+		}
+			
+		div.manage-inventory table td 
+		{												
+			background-color: #ffffff;												
+		}
+
+	div.manage-inventory form
+	{
+		width:250px;
+	}
+	
+	div.manage-inventory form fieldset
+	{
+		padding: 5px;
+	}
+	
+		div.manage-inventory form fieldset label,
+		div.manage-inventory form fieldset input
+		{
+			margin-top:5px;
+		}	
