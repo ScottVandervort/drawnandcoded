@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--  Processing Instruction. Tells the parser to fire off email.xsl when processing this .xml document. -->
+<?xml-stylesheet href="templates/emailOrderShipped.xsl" type="text/xsl"?>
+
+<Order 
+	SaleDate = "2007-11-14T12:01:00" 
+	OrderNumber="12345"
+	SalesTax="0.00" 
+	Shipping="0.00"
+	GrandTotal="74.86">
+	<Customer 
+		Id = "12345"
+		FirstName="Homer" 
+		LastName="Simpson"
+		Email="hsimpson@springfield.com" />
+	<Addresses>
+		<Address 
+			Type="SHIP"
+			FirstName="Homer"
+			LastName="Simpson"
+			Line1="742 Evergreen Terrace"
+			Line2=""
+			City="Springfield"
+			State="IL"
+			Zip="62701" />
+		<Address 
+			Type="BILL"
+			FirstName="Homer"
+			LastName="Simpson"			
+			Line1="742 Evergreen Terrace"
+			Line2=""
+			City="Springfield"
+			State="IL"
+			Zip="62701" />			
+	</Addresses>
+	<OrderItems>
+		<OrderItem
+			Sku="12345"
+			Name="White Collared Polo Shirt"
+			Uri="http://www.zappos.com/tommy-bahama-the-emfielder-polo-shirt-white"
+			Status="SHIP"
+			Price="29.99"
+			Quantity="1"
+			Shipping="0.00"
+			Subtotal="29.99"
+			SalesTax="0.00"
+			GrandTotal="29.99"/>	
+		<OrderItem
+			Sku="12346"
+			Name="Blue Slacks"
+			Uri="http://www.zappos.com/adidas-climacool-3-stripes-pant-chuy-white"
+			Status="ONORD"
+			Price="32.99"
+			Quantity="1"
+			Shipping="0.00"
+			Subtotal="32.99"
+			SalesTax="0.00"
+			GrandTotal="32.99"/>			
+		<OrderItem
+			Sku="12347"
+			Name="Doughnut w/ Sprinkles"
+			Uri="http://www.amazon.com/Vo-Toys-Squeaky-Doughnut-Assorted-styles/dp/B0006G5HYM"
+			Status="ONORD"
+			Price=".99"
+			Quantity="12"
+			Shipping="0.00"
+			Subtotal="11.88"
+			SalesTax="0.00"
+			GrandTotal="11.88"/>			
+	</OrderItems>	
+</Order>
+		
