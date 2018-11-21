@@ -1,0 +1,13 @@
+( Sample Data )
+http://www.opensourcecf.com/1/2009/05/10000-Random-Names-Database.cfm
+http://www.epa.gov/oms/tcldata.htm
+( Multi-select Autocomplete )
+http://jqueryui.com/autocomplete/#multiple
+( AJAX Autocomplete )
+http://jqueryui.com/autocomplete/#remote-jsonp
+(JQuery Widget Documentation)
+http://api.jqueryui.com/jQuery.widget/
+(CSV Helper)
+https://github.com/JoshClose/CsvHelper
+
+Never override hidden _ methods except standardize ones ( _create)

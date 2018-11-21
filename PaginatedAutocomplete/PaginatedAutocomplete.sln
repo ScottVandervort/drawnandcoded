@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DAE37B5C-B8E4-4639-B9B3-1A78296B143C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F1B784F7-7461-4F2F-8C4A-26CCA387D5F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottsJewels.Datasource.Test", "Tests\ScottsJewels.Datasource.Test\ScottsJewels.Datasource.Test.csproj", "{177B5EAD-F284-4216-9874-0E5C13C7F4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottsJewels.Models", "ScottsJewels.Models\ScottsJewels.Models.csproj", "{BE7F753F-315C-44E3-BBA6-12E35A799CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottsJewels.Datasource", "ScottsJewels.Datasource\ScottsJewels.Datasource.csproj", "{44552CC8-105F-4E33-98DD-FB0BBDE8B28C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScottsJewels.UI", "ScottsJewels.UI\ScottsJewels.UI.csproj", "{DB809194-41AE-48A2-B4DB-3B825D458684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{177B5EAD-F284-4216-9874-0E5C13C7F4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177B5EAD-F284-4216-9874-0E5C13C7F4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177B5EAD-F284-4216-9874-0E5C13C7F4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177B5EAD-F284-4216-9874-0E5C13C7F4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7F753F-315C-44E3-BBA6-12E35A799CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7F753F-315C-44E3-BBA6-12E35A799CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7F753F-315C-44E3-BBA6-12E35A799CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7F753F-315C-44E3-BBA6-12E35A799CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44552CC8-105F-4E33-98DD-FB0BBDE8B28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44552CC8-105F-4E33-98DD-FB0BBDE8B28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44552CC8-105F-4E33-98DD-FB0BBDE8B28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44552CC8-105F-4E33-98DD-FB0BBDE8B28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB809194-41AE-48A2-B4DB-3B825D458684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB809194-41AE-48A2-B4DB-3B825D458684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB809194-41AE-48A2-B4DB-3B825D458684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB809194-41AE-48A2-B4DB-3B825D458684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{177B5EAD-F284-4216-9874-0E5C13C7F4E6} = {F1B784F7-7461-4F2F-8C4A-26CCA387D5F7}
+	EndGlobalSection
+EndGlobal
