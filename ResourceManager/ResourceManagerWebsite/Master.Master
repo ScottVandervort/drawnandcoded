@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.Master.cs" Inherits="ScottsJewels.Web.UI.Master" %>
+<%@ Register Assembly="StyleManager" TagPrefix="scottJewels"  Namespace="ScottsJewels.Web.UI"%>
+<%@ Register Assembly="ScriptManager" TagPrefix="scottJewels"  Namespace="ScottsJewels.Web.UI"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">    
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>	
+
+	<scottJewels:StyleManager runat="server">											
+			<Resources>
+				<scottJewels:Style Media="screen" Path="~/styles/Master1.css" />
+				<scottJewels:Style Media="screen" Path="~/styles/Master2.css" />
+			</Resources>		
+	</scottJewels:StyleManager>
+
+	<scottJewels:ScriptManager runat="server">											
+		<DeferredResources>			
+			<Resources>
+				<scottJewels:Script Path="~/scripts/Toggle.js" />				
+			</Resources>	
+		</DeferredResources>		
+	</scottJewels:ScriptManager>
+
+    <asp:ContentPlaceHolder ID="headPlaceholder" runat="server"/>    
+</head>
+<body>	
+
+	<div id="MasterPage">This is the MasterPage's Markup</div>
+
+	<asp:ContentPlaceHolder ID="bodyPlaceholder" runat="server"/>              
+</body>
+</html>
